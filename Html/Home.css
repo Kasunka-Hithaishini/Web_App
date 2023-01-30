@@ -1,0 +1,226 @@
+.Home{
+    background-color:lightseagreen;
+  }
+  
+  header{
+  position: relative;
+  background-color:darkcyan;
+  width: 100%;
+  color: aliceblue;
+  height: 20vh;
+  margin-left: 0%;
+  margin-right: 0%;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border: 1;
+  border-color:lightcoral;
+  
+  }
+
+  h4 {
+     
+    display: inline-block;
+    color:coral;
+  }
+
+  #Lg{
+   margin-right: 100px;
+    position: relative;
+    float: right;
+  }
+
+ #Sg{
+    margin-left: 500px;
+    position: relative;
+    float: right;
+  }
+
+  a h3{
+    color:crimson;
+    
+  }
+  
+  header h1{
+  position: absolute;
+  margin-top: 45px;
+  left: 20%;
+  color:springgreen;
+  text-align: center;
+  margin-left: 350px;
+  }
+  
+  
+  
+  #MusicSearchId{
+  height: 20px;
+  width: 300px;
+  margin-left: 50px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: darkcyan;
+  border-color: aqua;
+  color:white;
+  font-size: 16px;
+  border-radius: 10px; 
+  
+  }
+
+  #MusicSearchId:hover{
+    color:khaki;
+    background-color: navy;
+  }
+  
+  ::placeholder{
+ 
+  }
+  
+  .Music{
+  margin-left: 20px;
+  }
+  
+  .PopT{
+  margin-top: 3%;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border: 1;
+  margin-left: 0;
+  margin-right: 50;
+  width: 1400px;
+  position: relative;
+  border-color:navy;
+  }
+  
+  .ClassicalT{
+  margin-top: 5px;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border: 1;
+  margin-left: 0;
+  margin-right: 50;
+  width: 1400px;
+  border-color:navy;
+  }
+  
+  .HipHopT{
+  margin-top: 5px;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border: 1;
+  margin-left: 0;
+  margin-right: 50;
+  width: 1400px;
+  border-color:navy;
+  }
+  
+  .AsianT{
+  margin-top: 20px;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border: 1;
+  margin-left: 0;
+  margin-right: 50;
+  width: 1400px;
+  border-color:navy;
+  }
+  
+  
+  
+  
+  
+  .DisPop {
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 100px; 
+  
+  }
+
+  .DisPop a:link{
+    text-decoration: none;
+
+  }
+
+ 
+  .DisPop h3{
+    
+  }
+  
+  .DisClass{
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 100px;
+  
+  }
+  .DisClass a:link{
+    text-decoration: none;
+  }
+  
+  .DisHip{
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 100px;
+  }
+  .DisHip a:link{
+    text-decoration: none;
+  }
+  
+  .DisAsian{
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 100px;
+  }
+
+  .DisAsian a:link{
+    text-decoration: none;
+  }
+  
+  #Pop1{
+  height: 300px;
+  margin-left: -1px;
+  width: 700px;
+  margin-top: 8px;
+  }
+  
+  #CM1{
+  margin-left:2px;
+  height: 300px;
+  width: 700px;
+  margin-top: 8px;
+  }
+  
+  
+  
+  
+  #HHM1{
+  margin-left: -1px;
+  height: 300px;
+  margin-left: -10px;
+  width: 700px;
+  }
+  
+  
+  
+  #AM1{
+  
+  height: 300px;
+  margin-left: 2px;
+  width: 700px;
+  margin-top: 10px;
+  }
+  

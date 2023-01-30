@@ -1,0 +1,66 @@
+.SongPage{
+    background-color:lightseagreen;
+  }
+  
+  header{
+    position: relative;
+    background-color:darkcyan;
+    width: 100%;
+    color: aliceblue;
+    height: 20vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border: 1;
+    border-color:lightcoral;
+  
+    }
+  
+    header h1{
+    position: absolute;
+    margin-top: 45px;
+    left: 20%;
+    color:springgreen;
+    text-align: center;
+    margin-left: 350px;
+    }
+  
+    #MusicSearchId2{
+      height: 20px;
+      width: 500px;
+      margin-left: 20px;
+      padding: 20px;
+      margin-top: 50px;
+      background-color: darkcyan;
+      border-color: aqua;
+  
+      }
+  
+      ::placeholder{
+      color:mediumspringgreen;
+      }
+  
+      #Description{
+        margin-top: 60px;
+        margin-left: 50px;
+      
+       
+  
+      }
+     
+  
+  #Description h6{
+  
+    color: chocolate;
+    line-height: 5px;
+   display: inline-block;
+  
+  }
+  
+ 
+
+
+
+  

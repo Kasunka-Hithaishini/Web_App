@@ -1,0 +1,118 @@
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/SongPage.css"/>
+    
+</head>
+<header>
+    <div class="heady">
+        <h1>Music Spot</h1>
+    </div>
+  </header>
+  
+  <form id="form">
+    <h1>Reminder - Download !!!</h1>
+    <h1>Validations !!!</h1>
+    <input type="text" id="MusicSearchId2" name="MusicSearch2" placeholder="Type your favourite...">
+  
+    <select name="FileType" id="FileTypeId">
+      <option value="0" selected>Select the Mode</option>
+      <option value="1">Mp3</option>
+      <option value="2">Mp4</option>
+    </select>
+  
+    <select name="Quality" id="QualityId">
+      <option value="0" selected>Select the quality of the video</option>
+      <option value="1">360</option>
+      <option value="2">720</option>
+    </select>
+    <input type="button" value="Display" onclick="MyFunction()">
+  </form>
+
+  
+
+  <div id="Description">
+    <!--Details ->  Author, singer, music composer, released year-->
+    <form action="http://localhost:6146/Details" method="Get">
+    <h6>Details</h6>
+    <div class="Author" style="display: inline-block;">
+    <h6>Author :</h6>
+    <h6 id="Author" style="color:black;"></h6>
+    </div>
+    
+    <div class="Singer" >
+    <h6>Singer: </h6> 
+    <h6 id="Singer" style="color:black;" ></h6>
+    </div>
+
+    <div class="MusicComposer">
+    <h6>Music composer: </h6> 
+    <h6 id="MusicComposer" style="color:black;"></h6>
+    </div>
+
+    <div class="ReleasedYear">
+    <h6>Released year</h6>
+    <h6 id="ReleasedYear" style="color:black;"></h6>
+    </div>
+
+    <div>
+    <h6>Mode:</h6>
+    <h6 id="Mode" style="color:black;"></h6>
+    </div>
+
+    <div>       
+    <h6>Video quality:</h6>
+    <h6 id="videoQ" style="color: black;"></h6>
+    </div>
+
+    <input type="button" value="Display">
+
+
+ 
+  </div>
+
+</form>
+
+
+  <script src="../Js/SongPage.js"></script>
+  
+  
+
+  
+  
+  
+  <!--width: 700px;
+        border: 15px solid black;
+        padding: 50px;
+        margin: 20px;
+        height: 400px;-->
+  
+  
+  
+  
+  <!--<form id="btn">
+  
+      <button (click)="CallMyFunction()">Enter</button>
+  
+  </form>-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--From mp3-> Play button  Download button-->
+  
+  
+  
+  
+  
+  
+  
+  
+  

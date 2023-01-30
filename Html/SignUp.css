@@ -1,0 +1,45 @@
+#tblSignUp{
+    margin-left: 500px;
+    position: relative;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 20px solid black;
+    border-style:groove;   
+    border-width: 1px;
+    height: 200px;
+    width: 400px;
+    
+}
+
+header{
+    position: relative;
+    background-color:darkcyan;
+    width: 100%;
+    color: aliceblue;
+    height: 20vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border: 1;
+    border-color:lightcoral;
+    
+    }
+
+    header h1{
+        position: absolute;
+        margin-top: 45px;
+        left: 20%;
+        color:springgreen;
+        text-align: center;
+        margin-left: 350px;
+        }
+      
+
+  
+
+
+body{
+    background-color: ;
+}

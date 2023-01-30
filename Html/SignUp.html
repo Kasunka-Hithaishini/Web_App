@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>SignUp</title>
+        <link rel="stylesheet" type="text/css" href="/SignUp.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="heady">
+                <h1>Music Spot</h1>
+            </div>
+          </header>
+
+
+        <form action="http://localhost:3000/signup" method="Post">
+            <div id="tblSignUp">
+            <table >
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" placeholder="Type your name"></td>
+                </tr>
+
+                <tr>
+                    <td>Date of birth:</td>
+                    <td><input type="text" name="dob" placeholder="Type your date of birth"></td>
+                </tr>
+
+                <tr>
+                    <td> Gender: </td>
+                    <td>Male: <input type="radio" name="gender" >Female:<input type="radio" name="gender" ></td>                 
+                    
+                </tr>
+
+                <tr>
+                    <td> Create Password:</td>
+                    <td><input type="text" name="Pass" placeholder="Create your password"></td>
+                                      
+                </tr>
+
+                <tr>
+                    <td>Type the created password again:</td>  
+                    <td><input type="text" name="RePass" placeholder="Type your password again"></td>
+                </tr>
+            </table>    
+        </div>
+                      
+            
+           
+            
+        </form>
+    </body>
+</html>
