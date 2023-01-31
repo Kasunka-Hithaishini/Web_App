@@ -2,7 +2,7 @@
   constructor(){
     console.log("initiate");
 
-  }
+  }*/
 
    Author="Talor Swift";
    Singer="Taylor Swift";
@@ -11,11 +11,10 @@
    Mode="Mp4";
    video="360";
    vid="video";
-   document.getElementById("MusicSearchId2").value="";
+   //document.getElementById("MusicSearchId2").value="";
 
-   MyFunctionx()
-
-{
+   function MyFunctionx()  
+ {
 
 
    document.getElementById("Author").innerHTML=Author;
@@ -27,7 +26,7 @@
 
 }
 
- MyFunction(vid){  
+ /*MyFunction(vid){  
   
 
     if(document.getElementById("MusicSearchId2").value==vid /*&& document.getElementById("FileTypeId").value=="Mp3"*//*) { 
@@ -37,9 +36,8 @@
     
 
 }
-
-
-}
-  
-module.exports=SongPage;
 */
+
+
+  
+

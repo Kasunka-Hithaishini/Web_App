@@ -11,7 +11,7 @@
           </header>
 
 
-        <form action="http://localhost:3000/signup" method="Post">
+        <form action="/SignUp" method="Post">
             <div id="tblSignUp">
             <table >
                 <tr>
@@ -25,20 +25,23 @@
                 </tr>
 
                 <tr>
-                    <td> Gender: </td>
-                    <td>Male: <input type="radio" name="gender" >Female:<input type="radio" name="gender" ></td>                 
-                    
+                    <td>Contact number:</td>
+                    <td><input type="text" name="Cno" placeholder="Type your Contact Number"></td>
                 </tr>
 
                 <tr>
                     <td> Create Password:</td>
-                    <td><input type="text" name="Pass" placeholder="Create your password"></td>
+                    <td><input type="password" name="pwd" placeholder="Create your password"></td>
                                       
                 </tr>
 
+               
                 <tr>
-                    <td>Type the created password again:</td>  
-                    <td><input type="text" name="RePass" placeholder="Type your password again"></td>
+                    <td><input type="submit" value="submit" id="submit"/></td>
+                </tr>
+
+                <tr>
+                    <td><input type="reset" value="Clear" id="clr"/></td>
                 </tr>
             </table>    
         </div>
