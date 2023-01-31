@@ -92,7 +92,7 @@
   border-color:navy;
   }
   
-  .ClassicalT{
+  .CountryT{
   margin-top: 5px;
   border-style: solid;
   border-right: none;
@@ -104,7 +104,7 @@
   border-color:navy;
   }
   
-  .HipHopT{
+  .KidsT{
   margin-top: 5px;
   border-style: solid;
   border-right: none;
@@ -152,7 +152,7 @@
     
   }
   
-  .DisClass{
+  .DisCountry{
   position:absolute;
   margin-left: 100px;
   margin-top: 10px;
@@ -161,11 +161,11 @@
   margin-bottom: 100px;
   
   }
-  .DisClass a:link{
+  .DisCountry a:link{
     text-decoration: none;
   }
   
-  .DisHip{
+  .DisKid{
   position:absolute;
   margin-left: 100px;
   margin-top: 10px;
@@ -173,7 +173,7 @@
   float: none;
   margin-bottom: 100px;
   }
-  .DisHip a:link{
+  .DisKid a:link{
     text-decoration: none;
   }
   
@@ -207,7 +207,7 @@
   
   
   
-  #HHM1{
+  #KM1{
   margin-left: -1px;
   height: 300px;
   margin-left: -10px;

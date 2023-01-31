@@ -15,7 +15,7 @@
     <h1>Validations !!!</h1>
     <input type="text" id="MusicSearchId2" name="MusicSearch2" placeholder="Type your favourite...">
   
-    <select name="FileType" id="FileTypeId">
+    <!--<select name="FileType" id="FileTypeId">
       <option value="0" selected>Select the Mode</option>
       <option value="1">Mp3</option>
       <option value="2">Mp4</option>
@@ -25,11 +25,24 @@
       <option value="0" selected>Select the quality of the video</option>
       <option value="1">360</option>
       <option value="2">720</option>
-    </select>
+    </select>-->
     <input type="button" value="Display" onclick="MyFunctionx()">
   </form>
 
-  
+  <table id="Poptbl" style="border: 1px solid black;">
+    <tr style="height: 50px; " >
+      <th style="width:500px; border: 1px solid black;">Audio song</th>
+      <th style="width:500px; border: 1px solid black;">Video song with quality - 360</th>
+      <th style="width:500px;border: 1px solid black;">Video song with quality - 720</th>
+  </tr>
+    <tr style="height: 500px; " >
+        <td style="width:500px; border: 1px solid black;"></td>
+        <td style="width:500px; border: 1px solid black;"></td>
+        <td style="width:500px;border: 1px solid black;"></td>
+    </tr>
+
+    
+</table>
 
   <div id="Description">
     <!--Details ->  Author, singer, music composer, released year-->
@@ -55,14 +68,14 @@
     <h6 id="ReleasedYear" style="color:black;"></h6>
     </div>
 
-    <div>
+    <!--<div>
     <h6>Mode:</h6>
     <h6 id="Mode" style="color:black;"></h6>
     </div>
 
     <div>       
     <h6>Video quality:</h6>
-    <h6 id="videoQ" style="color: black;"></h6>
+    <h6 id="videoQ" style="color: black;"></h6>-->
     </div>
 
     
@@ -70,6 +83,10 @@
 
  
   </div>
+
+
+
+
 
 
 

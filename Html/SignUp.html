@@ -11,7 +11,7 @@
           </header>
 
 
-        <form action="/SignUp" method="Post">
+        <form name="SUform" action="/SignUp" method="Post">
             <div id="tblSignUp">
             <table >
                 <tr>
@@ -31,8 +31,12 @@
 
                 <tr>
                     <td> Create Password:</td>
-                    <td><input type="password" name="pwd" placeholder="Create your password"></td>
+                    <td><input type="password" name="pwd" placeholder="Only six characers"></td>
                                       
+                </tr>
+
+                <tr>
+                    <td><input type="Button" value="Apply" id="validate" onclick="ValidateSignUp()"/></td>
                 </tr>
 
                
@@ -50,5 +54,24 @@
            
             
         </form>
+
+        <script>
+            function ValidateSignUp() {
+            let fname = document.forms["SUform"]["name"].value;
+            let fdob = document.forms["SUform"]["dob"].value;
+            let fCno = document.forms["SUform"]["Cno"].value;
+            let fpwd = document.forms["SUform"]["pwd"].value;
+            if (fname == "" || fdob=="" || fCno=="" || fpwd=="" ) {
+             window.alert("Please complete filling your details");             
+             }
+             else if(fpwd.length!=6){
+                window.alert("Your password should contain only six characters")
+             }
+             else{
+                window.alert("Please submit your form now")
+             }
+             
+            }
+        </script>
     </body>
 </html>

@@ -1,0 +1,26 @@
+header{
+    position: relative;
+    background-color:darkcyan;
+    width: 100%;
+    color: aliceblue;
+    height: 20vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border: 1;
+    border-color:lightcoral;
+    
+    }
+
+    .success{
+        width: 350px;
+        padding: 10px;
+        border: 5px salmon;
+        margin: 0;
+        background-color: coral;
+        margin-left: 500px;
+        margin-top: 50px;
+
+    }
