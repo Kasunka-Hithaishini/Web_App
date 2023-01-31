@@ -14,6 +14,10 @@ const port = 1937
 const app=express()
 const server=http.createServer(app)
 
+// set the view engine to ejs
+//app.set('view engine', 'ejs');
+
+
 app.use(express.json())
 var database //Declaring the variable database
 app.use( bodyParser.json() );// to support JSON-encoded bodies
@@ -23,6 +27,7 @@ extended: true}));
 
 app.use(cors())
 
+//Sending data to the database with database connection with mongoose
 mongoose.connect('mongodb://localhost:27017/SongDetails',{
     useNewUrlParser:true,
     useUnifiedTopology:true
@@ -53,6 +58,9 @@ app.post("/SignUp",(req,res)=>{
     });
     return res.redirect('signup_success.html')
 })
+
+
+
 
 
 
@@ -497,7 +505,7 @@ io.on("connection", function(socket) {
     });
 });
 
-    
+    //Listening on port & database connection with mongo client
     server.listen(port, () => {
             console.log(`Server is runing on port ${port}`)
         
