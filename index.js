@@ -137,7 +137,7 @@ app.get('/api/Song', (req,res) => {
 
                 //Asian_Cham - Song Details
             app.get('/chamSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"Cham Cham"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"Cham Cham"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -181,7 +181,7 @@ app.get('/api/Song', (req,res) => {
 
                 //Asian_Chagoda - Song Details
             app.get('/ChagodaSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"Chogada"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"Chogada"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -225,7 +225,7 @@ app.get('/api/Song', (req,res) => {
 
                 //Country_Going_Song Details
             app.get('/GoingSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"Going, Going, Gone"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"Going, Going, Gone"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -270,7 +270,7 @@ app.get('/api/Song', (req,res) => {
 
                 //Country_Human_Song Details
             app.get('/HumanSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"Human"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"Human"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -315,7 +315,7 @@ app.get('/api/Song', (req,res) => {
                 
                 //Kids_Letitgo_Song Details
             app.get('/LetSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"Let it go"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"Let it go"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -360,7 +360,7 @@ app.get('/api/Song', (req,res) => {
 
                  //Kids_WhenWillMyLife_Song Details
             app.get('/WhenSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"When will my life"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"When will my life"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -404,7 +404,7 @@ app.get('/api/Song', (req,res) => {
 
                 //Kids_SeeYouAgain_Song Details
             app.get('/SeeSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"See you again"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"See you again"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
@@ -449,7 +449,7 @@ app.get('/api/Song', (req,res) => {
                 
                 //Kids_WhatMakesYou_Song Details
             app.get('/WhatSDetails',(req,res)=>{
-                const result=databasetest.collection('Details').find({Song_name:"What makes you beautiful"}).toArray((err,result) =>{
+                const result=database.collection('Details').find({Song_name:"What makes you beautiful"}).toArray((err,result) =>{
                     if(err) throw err
                     res.send(result)              
                     console.log(result)

@@ -11,28 +11,59 @@
                     
           </header>
 
-          <form >
-            <input class="PopDis" type="button" value="Display all Asian songs">
-        </form>
+          
 
         <table id="Poptbl" style="border: 1px solid black;">
+         
             <tr style="height: 500px; " >
-                <td style="width:500px; border: 1px solid black;"><audio controls></audio></td>
-                <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video></td>
-                <td style="width:500px;border: 1px solid black;"><video width="320" height="240" controls></video></td>
+                <form  action="/chamA" method="Get">
+                <td style="width:500px; border: 1px solid black;"><audio controls></audio>
+                <input type="submit" value="Display">   
+            </td>             
+                </form>
+                <form  action="/chamVone" method="Get">
+                <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video>
+                <input type="submit" value="Display">
+            </td>
+                </form>
+                <form name= action="/chamVtwo" method="Get">
+                <td style="width:500px;border: 1px solid black;"><video width="320" height="240" controls></video>
+                <input type="submit" value="Display">
+            </td>
+                </form>
             </tr>
+          
 
+         
             <tr style="height: 500px;">
-                <td style="width:500px; border: 1px solid black;"><audio controls></audio></td>
-                <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video></td>
-                <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video></td>
+                <form name= action="/ChogadaA" method="Get">
+                <td style="width:500px; border: 1px solid black;"><audio controls></audio>
+                <input type="submit" value="Display">
+            </td>
+                </form>
+                <form name= action="/ChogadaVone" method="Get">
+                <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video>
+                <input type="submit" value="Display">
+            </td>
+                </form>
+                <form name= action="/ChogadaVtwo" method="Get">
+                <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video>
+                <input type="submit" value="Display">
+               </td>
+                </form>
             </tr>
+            <form name="SUform" action="/SignUp" method="Post"></form>
 
+            
             <tr style="height: 500px; ">
+                <form name="SUform" action="/SignUp" method="Post">
                 <td style="width:500px; border: 1px solid black;"><audio controls></audio></td>
+                <form name="SUform" action="/SignUp" method="Post">
                 <td style="width:500px;border: 1px solid black;"><video width="320" height="240" controls></video></td>
+                <form name="SUform" action="/SignUp" method="Post">
                 <td style="width:500px;border: 1px solid black;"><video width="320" height="240" controls></video></td>
             </tr>
+            <form name="SUform" action="/SignUp" method="Post"></form>
         </table>
     </body>
 </html>

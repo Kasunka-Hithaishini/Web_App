@@ -25,7 +25,7 @@
       <option value="1">360</option>
       <option value="2">720</option>
     </select>-->
-    <input type="button" value="Display" onclick="MyFunctionx()">
+    <!--<input type="button" value="Display" onclick="MyFunctionx()">-->
   </form>
 
   <table id="Poptbl" style="border: 1px solid black;">
@@ -35,17 +35,32 @@
       <th style="width:500px;border: 1px solid black;">Video song with quality - 720</th>
   </tr>
     <tr style="height: 500px; " >
-        <td style="width:500px; border: 1px solid black;"><audio controls></audio></td>
-        <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video></td>
-        <td style="width:500px;border: 1px solid black;"><video width="320" height="240" controls></video></td>
+        <form id="Audio" action="" method="Get">
+        <td style="width:500px; border: 1px solid black;"><audio controls></audio>
+        <input type="submit" value="Display" onclick="FindAudio()">
+      </td>
+      </form>
+        <form id="VideoQ360"  action="" method="Get">
+        <td style="width:500px; border: 1px solid black;"><video width="320" height="240" controls></video>
+        <input type="submit" value="Display" onclick="FindVideo360()">
+      </td>
+    </form>     
+    
+        <form id="VideoQ720" action="" method="Get">
+        <td style="width:500px;border: 1px solid black;"><video width="320" height="240" controls></video>
+        <input type="submit" value="Display" onclick="FindVideo720()">
+      </td>
+    </form>
+      </table>
     </tr>
 
     
 </table>
 
+<form id="FSongData" action="" method="Get">
   <div id="Description">
-    <!--Details ->  Author, singer, music composer, released year-->
-    <!--<form action="http://localhost:6146/Details" method="Get">-->
+    <!--Details ->  Author, singer, music composer, released year-->    
+    <input type="submit" value="Display Song details" onclick="SongData()">
     <h6>Details</h6>
     <div class="Author" style="display: inline-block;">
     <h6>Author :</h6>
@@ -65,39 +80,203 @@
     <div class="ReleasedYear">
     <h6>Released year</h6>
     <h6 id="ReleasedYear" style="color:black;"></h6>
+    </div>  
+    
     </div>
+    </form> 
+ </div>
+<!--<script src="../SongPage.js"></script>-->
+  
+ </div>
 
-    <!--<div>
-    <h6>Mode:</h6>
-    <h6 id="Mode" style="color:black;"></h6>
-    </div>
-
-    <div>       
-    <h6>Video quality:</h6>
-    <h6 id="videoQ" style="color: black;"></h6>-->
-    </div>
-
+  
+  <script>
     
 
+    function FindAudio(){
+      var inSong = document.getElementById("MusicSearchId2").value;
+      //var Aud = document.getElementById("Audio").action;
+      
+      if(inSong=="cham cham"){
+        var Aud="/chamA";
+        document.getElementById("Audio").action=Aud;
+      }
+      else if(inSong=="Chogada"){
+        var Aud="/ChogadaA";
+        document.getElementById("Audio").action=Aud;
+      }
 
- 
-  </div>
+      else if(inSong=="Going"){
+        var Aud="/GoingA";
+        document.getElementById("Audio").action=Aud;
+      }
+      else if(inSong=="Human"){
+        var Aud="/HumanA";
+        document.getElementById("Audio").action=Aud;
+      }
+
+      else if(inSong=="Let it go"){
+        var Aud="/LetA";
+        document.getElementById("Audio").action=Aud;
+      }
+
+      else if(inSong=="When will my life"){
+        var Aud="/WhenA";
+        document.getElementById("Audio").action=Aud;
+      }
+
+      else if(inSong=="See you again"){
+        var Aud="/SeeA";
+        document.getElementById("Audio").action=Aud;
+      }
+
+      else if(inSong=="What makes you beautiful"){
+        var Aud="/WhatA";
+        document.getElementById("Audio").action=Aud;
+      }
+     
+    }
+
+   function FindVideo360(){
+      var inSongV3 = document.getElementById("MusicSearchId2").value;
+
+      if(inSongV3=="cham cham"){
+        var Vid3="/chamVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="Chogada"){
+        var Vid3="/ChogadaVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="Going"){
+        var Vid3="/GoingVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="Human"){
+        var Vid3="/HumanVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="Let it go"){
+        var Vid3="/LetVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="When will my life"){
+        var Vid3="/WhenVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="See you again"){
+        var Vid3="/SeeVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
+
+      if(inSongV3=="What makes you beautiful"){
+        var Vid3="/WhatVone";
+        document.getElementById("VideoQ360").action=Vid3;
+      }
 
 
+    }
+
+    function FindVideo720(){
+      var inSongV7 = document.getElementById("MusicSearchId2").value;
+
+      if(inSongV7=="cham cham"){
+        var Vid7="/chamVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="Chogada"){
+        var Vid7="/ChogadaVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="Going"){
+        var Vid7="/GoingVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="Human"){
+        var Vid7="/HumanVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="Let it go"){
+        var Vid7="/LetVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="When will my life"){
+        var Vid7="/WhenVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="See you again"){
+        var Vid7="/SeeVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
+
+      if(inSongV7=="What makes you beautiful"){
+        var Vid7="/WhatVtwo";
+        document.getElementById("VideoQ720").action=Vid7;
+      }
 
 
+    }
+
+    function SongData(){
+      var inSongD = document.getElementById("MusicSearchId2").value;
+
+      if(inSongD=="cham cham"){
+        var SongD="/chamSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="Chogada"){
+        var SongD="/ChagodaSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="Going"){
+        var SongD="/GoingSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="Human"){
+        var SongD="/HumanSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="Let it go"){
+        var SongD="/LetSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="When will my life"){
+        var SongD="/WhenSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="See you again"){
+        var SongD="/SeeSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
+
+      if(inSongD=="What makes you beautiful"){
+        var SongD="/WhatSDetails";
+        document.getElementById("FSongData").action=SongD;
+      }
 
 
+    }
 
 
-  <script src="../SongPage.js"></script>
-  
-  
-
-
-  </div>
-  
-  
+  </script>
   
   <!--width: 700px;
         border: 15px solid black;
