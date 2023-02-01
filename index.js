@@ -108,7 +108,7 @@ app.get('/api/Song', (req,res) => {
                 if(err) throw err
                 res.send(result)              
                 console.log(result)
-                req.body.Author=result;       
+                      
                
             })   
             })
@@ -119,7 +119,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -130,7 +130,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -141,7 +141,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -152,7 +152,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -163,7 +163,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -174,7 +174,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -185,7 +185,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -196,7 +196,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -207,7 +207,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -218,7 +218,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -229,7 +229,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -240,7 +240,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -251,7 +251,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -263,7 +263,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -274,7 +274,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -285,7 +285,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -296,7 +296,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -307,7 +307,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -319,7 +319,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -331,7 +331,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -342,7 +342,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -353,7 +353,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -364,7 +364,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -375,7 +375,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -386,7 +386,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -397,7 +397,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -408,7 +408,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -419,7 +419,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -430,7 +430,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -441,7 +441,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -453,7 +453,7 @@ app.get('/api/Song', (req,res) => {
                     if(err) throw err
                     res.send(result)              
                     console.log(result)
-                    req.body.Author=result;       
+                          
                    
                 })   
                 })
@@ -504,6 +504,10 @@ io.on("connection", function(socket) {
         socket.broadcast.emit("received message", msg);
     });
 });
+
+
+
+
 
     //Listening on port & database connection with mongo client
     server.listen(port, () => {

@@ -1,5 +1,5 @@
 $(function() {
-    let socket = io("http://localhost:6514");
+    let socket = io("http://localhost:1937");
 
     socket.on("received message", function(msg) {
         $("#board").append("<p class=\"message\">" + msg + "</p>");

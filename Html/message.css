@@ -1,16 +1,53 @@
+body{
+   background-color: lightseagreen;
+}
+
+header{
+   position: relative;
+   background-color:darkcyan;
+   width: 100%;
+   color: aliceblue;
+   height: 20vh;
+   margin-left: 0%;
+   margin-right: 0%;
+   border-style: solid;
+   border-right: none;
+   border-left: none;
+   border: 1;
+   border-color:lightcoral;
+   
+   }
+
 #board {
-     width: 300px; 
-     min-height: 500px;
+     width: 800px; 
+     min-height: 200px;
       border: 1px #000 solid;
+      margin-left: 500px;
      }
 
      .message {
          width: 180px;
           margin: 5px;
            background-color: #f5ffad;
+           
          }
 
          .sent { 
             margin-left: 115px; 
             background-color: #beff99;
+         }
+         #msg{
+            margin-left: 500px;
+            height: 50px;
+            width: 800px;
+         }
+
+         #send{
+            margin-left: 1200px;
+            margin-top: 10px;
+         }
+
+         #Talk{
+            margin-left: 100px;
+            
          }
